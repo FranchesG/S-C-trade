@@ -216,12 +216,12 @@ body {
 
 .section-hero {
   /* background-color: #ececec; */
-  height: calc(100vh - 9rem);
-  position: relative;
+  height: calc(100vh - 8.6rem);
+  /* position: relative; */
 }
 
 .hero {
-  max-width: 130rem;
+  max-width: 150rem;
   margin: 0 auto;
   /* text-align: center; */
   /* margin: 15rem 10rem; */
@@ -576,7 +576,7 @@ li {
   font-size: 1.8rem;
   /* font-weight: 500; */
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .logo-header img {
@@ -586,12 +586,11 @@ li {
 }
 
 .header {
-  background-color: #fef5e6;
+  background-color: rgba(254, 245, 230, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem 1.8rem;
-  margin: 2px 0;
 }
 
 .nav-menu ul {
