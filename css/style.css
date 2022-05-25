@@ -111,12 +111,13 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 42rem));
+  grid-template-rows: repeat(2, 1fr);
   text-align: center;
   justify-content: center;
   padding: 0 5rem;
   /* align-items: center; */
-  gap: 4.8rem;
+  gap: 6rem;
   margin-bottom: 6.4rem;
 }
 
@@ -252,7 +253,7 @@ body {
 /************************************/
 
 .section-features {
-  padding: 20rem 0;
+  padding: 15rem 0;
   background-color: #fef5e6;
   /* background-image: linear-gradient(rgb(30, 30, 30), rgba(252, 236, 205, 0.4)),
     url(../img/background-14.jpg);
